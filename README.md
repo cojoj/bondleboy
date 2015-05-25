@@ -1,10 +1,10 @@
-# Bundleboy
+# Bundleboy 👦
 If you've ever tried to pull `CFBundleIdentifier` from your **Xcode project** using shell script, well... You've probably did BUT if you'd like to get `CFBundleIdentifier` automatically eg. while using **Xcode Bots pre-script** you've probably face the wall.
 This simple script is a solution to this problem.
 
 ## Installation
 
-#### The fast way
+#### The fast way ⏩
 
 This is a `shell` script so the installation is pretty basic.  
 Just clone this repo 
@@ -27,7 +27,7 @@ From now on you can use this script by calling:
 ./bundleboy.sh
 ```
 
-#### The global way
+#### The global way 🌏
 
 If you want to use this script globally with easy access you'll have to move it to either `/usr/bin` or `/usr/local/bin`. In this example I'll move it to the first location by calling:
 ```
