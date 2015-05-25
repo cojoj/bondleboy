@@ -8,6 +8,9 @@ while getopts "p:x:" arg; do
 		x )
 			PROJECT_PATH=$XCS_SOURCE_DIR
 			;;
+		* )
+			PROJECT_PATH=pwd
+			;;
 	esac
 done
 
